@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className="about-me" id="about-me">
       <div
-       className="about-me-image">
+       className="about-me-section">
         <img src={waterfall}></img>
         <div className="overlay"></div>
         <div className="about-me-text-container">
