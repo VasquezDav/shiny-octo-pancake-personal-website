@@ -2,7 +2,20 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className='projects' id='projects'>Projects</div>
+    <div className='projects' id='projects'>
+      
+      
+      
+      
+      
+      Projects
+    
+    
+    
+    
+    
+    
+    </div>
   )
 }
 
