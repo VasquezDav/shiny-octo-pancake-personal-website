@@ -2,23 +2,44 @@ import React, { useState, useEffect } from "react";
 
 function Header() {
   const [selected, setSelected] = useState("");
+  const [isScrolling, setIsScrolling] = useState(false);
 
   const handleSelect = (section) => {
+    const offset = 100;
+    const targetElement = document.getElementById(section);
+    const targetPosition = targetElement.offsetTop - offset;
+
+    setIsScrolling(true); 
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth",
+    });
+
+
+    setTimeout(() => {
+      setIsScrolling(false);
+      setSelected(section);
+    }, 1000); 
+
     setSelected(section);
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      // Get the scroll position
+      if (isScrolling) return;
+
       const scrollPosition = window.scrollY;
+      const offset = 100;
 
-      // Get the positions of the sections
-      const aboutMeSection = document.getElementById("about-me").offsetTop;
-      const projectsSection = document.getElementById("projects").offsetTop;
-      const resumeSection = document.getElementById("resume").offsetTop;
-      const contactMeSection = document.getElementById("contact-me").offsetTop;
+      const aboutMeSection =
+        document.getElementById("about-me").offsetTop - offset;
+      const projectsSection =
+        document.getElementById("projects").offsetTop - offset;
+      const resumeSection =
+        document.getElementById("resume").offsetTop - offset;
+      const contactMeSection =
+        document.getElementById("contact-me").offsetTop - offset;
 
-      // Determine which section is currently in view
       if (
         scrollPosition >= aboutMeSection &&
         scrollPosition < projectsSection
@@ -34,56 +55,46 @@ function Header() {
         scrollPosition < contactMeSection
       ) {
         setSelected("resume");
-      } else if (scrollPosition >= contactMeSection) {
+      }
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         setSelected("contact-me");
       }
     };
 
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Remove event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
-
+  }, [isScrolling]); 
   return (
     <div className="header">
       <h2>David A. Vasquez</h2>
       <div className="header-button-container">
-        <a href="#about-me">
-          <button
-            className={selected === "about-me" ? "selected" : ""}
-            onClick={() => handleSelect("about-me")}
-          >
-            About Me
-          </button>
-        </a>
-        <a href="#projects">
-          <button
-            className={selected === "projects" ? "selected" : ""}
-            onClick={() => handleSelect("projects")}
-          >
-            Projects
-          </button>
-        </a>
-        <a href="#resume">
-          <button
-            className={selected === "resume" ? "selected" : ""}
-            onClick={() => handleSelect("resume")}
-          >
-            Resume
-          </button>
-        </a>
-        <a href="#contact-me">
-          <button
-            className={selected === "contact-me" ? "selected" : ""}
-            onClick={() => handleSelect("contact-me")}
-          >
-            Contact Me
-          </button>
-        </a>
+        <button
+          className={selected === "about-me" ? "selected" : ""}
+          onClick={() => handleSelect("about-me")}
+        >
+          About Me
+        </button>
+        <button
+          className={selected === "projects" ? "selected" : ""}
+          onClick={() => handleSelect("projects")}
+        >
+          Projects
+        </button>
+        <button
+          className={selected === "resume" ? "selected" : ""}
+          onClick={() => handleSelect("resume")}
+        >
+          Resume
+        </button>
+        <button
+          className={selected === "contact-me" ? "selected" : ""}
+          onClick={() => handleSelect("contact-me")}
+        >
+          Contact Me
+        </button>
       </div>
     </div>
   );
