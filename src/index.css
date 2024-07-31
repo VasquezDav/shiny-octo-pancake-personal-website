@@ -174,38 +174,101 @@ h1 {
 /*Projects*/
 .projects {
   width: 78%;
-  height: 1000px;
+  height: 90vh;
   background-color: #fff7ea;
   margin: auto;
   margin-top: 50px;
   justify-self: center;
-
   display: flex;
   flex-direction: column;
-
-  /* position: relative;
-  display: flex;
-  width: 1242px;
-  height: 462px;
-  margin: auto;
-  border-radius: 50px;
-  background-color: #fff7ea;
-  overflow: hidden; */
 }
 
 .project-container {
   display: flex;
+  height: 90%;
+  width: 100%;
 }
+
 .box {
-  height: 50vh;
-  width: 10vh;
+  height: 100%;
+  width: 25%;
   background-color: gray;
   border-color: #0056b3;
   outline-color: #0056b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s ease;
+}
+.box:hover {
+  /* transform: scale(0,1.1); */
+  width: 60%;
+  transition: width 0.3s ease;
+}
+
+.title-box {
+  display: flex;
+  font-size: xx-large;
+  font-family: "SansSofiaRegular";
+  font-size: 3cap;
+  text-align: center;
+  height: 30%;
+}
+
+.title-box span {
+  text-align: center;
+  align-self: center;
+}
+
+.logo {
+  margin-top: 60%;
+  height: 35%;
+  width: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
 }
 
 .spotify-journal {
-  background-color: rgba(174, 118, 166, 0.8);
+  background: linear-gradient(
+      rgba(174, 118, 166, 0.8),
+      rgba(174, 118, 166, 0.8)
+    ),
+    url("/public/Images/JamsLanding.png") no-repeat center center;
+  background-size: cover;
+}
+.spotify-journal .logo {
+  background-image: url("/public/Images/Spotify\ Jamz.png");
+}
+
+.arcana {
+  background: linear-gradient(rgba(53, 94, 147, 0.8), rgba(53, 94, 147, 0.8)),
+    url("/public/Images/fithub_site.png") no-repeat center center;
+  background-size: cover;
+}
+.arcana .logo {
+  background-image: url("/public/Images/arcana_logo.png");
+}
+.uwc-queue {
+  background: linear-gradient(
+      rgba(148, 197, 204, 0.8),
+      rgba(148, 197, 204, 0.8)
+    ),
+    url("/public/Images/uwc_site.png") no-repeat center center;
+  background-size: cover;
+}
+.uwc-queue .logo {
+  background-image: url("/public/Images/uwc_logo.png");
+}
+
+.fithub {
+  background: linear-gradient(rgba(53, 94, 147, 0.8), rgba(53, 94, 147, 0.8)),
+    url("/public/Images/fithub_site.png") no-repeat center center;
+  background-size: cover;
+}
+.fithub .logo {
+  background-image: url("/public/Images//FitHub.png");
 }
 
 /*Resume*/
@@ -307,7 +370,7 @@ iframe {
 .notification-message {
   font-size: 16px;
   color: #333;
-  font-size:x-large;
+  font-size: x-large;
 }
 
 .notification-timer {
