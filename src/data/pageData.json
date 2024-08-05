@@ -1,0 +1,60 @@
+{
+  "projects": {
+    "jamz": {
+      "title": "Spotify Journal Application",
+      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "content": [
+        {
+          "heading": "Section 1",
+          "text": "This is the first section of the website."
+        },
+        {
+          "heading": "Section 2",
+          "text": "This is the second section of the website."
+        }
+      ]
+    },
+    "arcana": {
+      "title": "Advanced Resiliency Chronicling for Analysis in Network Assessments",
+      "description": "Learn more about our website.",
+      "content": [
+        {
+          "heading": "Our Mission",
+          "text": "Our mission is to provide high quality content."
+        },
+        {
+          "heading": "Our Team",
+          "text": "We have a diverse team of experts."
+        }
+      ]
+    },
+    "uwc": {
+      "title": "The University of Texas at El Paso Writing Center Queue App",
+      "description": "Learn more about our website.",
+      "content": [
+        {
+          "heading": "Our Mission",
+          "text": "Our mission is to provide high quality content."
+        },
+        {
+          "heading": "Our Team",
+          "text": "We have a diverse team of experts."
+        }
+      ]
+    },
+    "fithub": {
+      "title": "Personal Fitness Web-App",
+      "description": "Learn more about our website.",
+      "content": [
+        {
+          "heading": "Our Mission",
+          "text": "Our mission is to provide high quality content."
+        },
+        {
+          "heading": "Our Team",
+          "text": "We have a diverse team of experts."
+        }
+      ]
+    }
+  }
+}

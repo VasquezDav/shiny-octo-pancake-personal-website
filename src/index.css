@@ -6,6 +6,18 @@
   font-family: "SomeTypeMonoRegular";
   src: url(./Fonts/SometypeMono-Regular.ttf) format("truetype");
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   background-image: url("./Images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
   background-size: cover;
@@ -173,14 +185,16 @@ h1 {
 
 /*Projects*/
 .projects {
-  width: 78%;
+  width: 95%;
   height: 90vh;
-  background-color: #fff7ea;
   margin: auto;
   margin-top: 50px;
   justify-self: center;
   display: flex;
   flex-direction: column;
+}
+.projects h1 {
+  margin: auto;
 }
 
 .project-container {
@@ -188,7 +202,53 @@ h1 {
   height: 90%;
   width: 100%;
 }
+.project-info {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  margin: 15px;
+}
 
+.title-box {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: "SansSofiaRegular";
+  font-size: 3cap;
+  text-align: center;
+  height: 30%;
+}
+
+.title-box span {
+  text-align: center;
+  align-self: center;
+  transform: width 0.3s ease;
+}
+
+.project-info p {
+  text-align: center;
+  line-height: 58px;
+  font-size: xx-large;
+  padding-left: 50px;
+  padding-right: 50px;
+  animation: fadeIn 1.4s ease-in-out;
+}
+
+.learn-more {
+  align-self: flex-end;
+  font-size: x-large;
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.learn-more:hover{
+  transform: scale(1.1);
+}
 .box {
   height: 100%;
   width: 25%;
@@ -201,33 +261,22 @@ h1 {
   transition: width 0.3s ease;
 }
 .box:hover {
-  /* transform: scale(0,1.1); */
-  width: 60%;
-  transition: width 0.3s ease;
-}
-
-.title-box {
-  display: flex;
-  font-size: xx-large;
-  font-family: "SansSofiaRegular";
-  font-size: 3cap;
-  text-align: center;
-  height: 30%;
-}
-
-.title-box span {
-  text-align: center;
-  align-self: center;
+  cursor: pointer;
+  width: 32%;
+  /* transform: scale(1.02); */
+  /* background-color: red; */
+  /* transition: width 0.3s ease; */
 }
 
 .logo {
-  margin-top: 60%;
+  margin-top: 5%;
   height: 35%;
   width: 80%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   align-self: center;
+  transition: transform 5s ease;
 }
 
 .spotify-journal {
@@ -263,7 +312,7 @@ h1 {
 }
 
 .fithub {
-  background: linear-gradient(rgba(53, 94, 147, 0.8), rgba(53, 94, 147, 0.8)),
+  background: linear-gradient(rgba(40, 151, 225, 0.8), rgba(53, 94, 147, 0.8)),
     url("/public/Images/fithub_site.png") no-repeat center center;
   background-size: cover;
 }

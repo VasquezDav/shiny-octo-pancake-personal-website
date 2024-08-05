@@ -1,34 +1,91 @@
 import React, { useState } from "react";
+import data from "../data/pageData.json";
 
 function Projects() {
+  const [hoveredProject, setHoveredProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState(null);
+  const openProject = (projectName) => {
+
+  };
 
   return (
     <div className="projects" id="projects">
       <h1>Projects</h1>
       <div className="project-container">
-        <div className="box spotify-journal">
-          <div className="title-box">
-            <span>Spotify Journal Application</span>
-          </div>
+        {/* Jamz */}
+        <div
+          className="box spotify-journal "
+          onMouseEnter={() => setHoveredProject("jamz")}
+          onMouseLeave={() => setHoveredProject(null)}
+          onClick={() => setSelectedProject("jamz")}
+        >
+          {hoveredProject === "jamz" ? (
+            <div className="project-info">
+              <div className="title-box">
+                <h3>Spotify Journal Application</h3>
+              </div>
+              <p>{data.projects.jamz.description}</p>
+              <button className="learn-more">Learn More--{">"}</button>
+            </div>
+          ) : null}
           <div className="logo"></div>
         </div>
-        <div className="box arcana">
-          <div className="title-box">
-            <span>
-              Advanced Resiliency Chronicling for Analysis in Network
-              Assessments
-            </span>
-          </div>
+
+        {/* ARCANA */}
+        <div
+          className="box arcana"
+          onMouseEnter={() => setHoveredProject("arcana")}
+          onMouseLeave={() => setHoveredProject(null)}
+          onClick={() => setSelectedProject("arcana")}
+        >
+          {hoveredProject === "arcana" ? (
+            <div className="project-info">
+              <div className="title-box">
+                <h3>{data.projects.arcana.title}</h3>
+              </div>
+              <p>{data.projects.jamz.description}</p>
+              <button className="learn-more">Learn More--{">"}</button>
+            </div>
+          ) : null}
+
           <div className="logo"></div>
         </div>
-        <div className="box uwc-queue">
-          <div className="title-box">
-            <span>The University of Texas at El Paso Writing Center Queue App</span>
-          </div>
+
+        {/* UWC */}
+        <div
+          className="box uwc-queue"
+          onMouseEnter={() => setHoveredProject("uwc")}
+          onMouseLeave={() => setHoveredProject(null)}
+          onClick={() => setSelectedProject("uwc")}
+        >
+          {hoveredProject === "uwc" ? (
+            <div className="project-info">
+              <div className="title-box">
+                <h3>{data.projects.uwc.title}</h3>
+              </div>
+              <p>{data.projects.jamz.description}</p>
+              <button className="learn-more">Learn More--{">"}</button>
+            </div>
+          ) : null}
           <div className="logo"></div>
         </div>
-        <div className="box fithub">
-          <div className="title-box"><span>Personal Fitness Web-App</span></div>
+
+        {/* Fithub */}
+        <div
+          className="box fithub "
+          onMouseEnter={() => setHoveredProject("fithub")}
+          onMouseLeave={() => setHoveredProject(null)}
+          onClick={() => setSelectedProject("fithub")}
+        >
+          {hoveredProject === "fithub" ? (
+            <div className="project-info">
+              <div className="title-box">
+                <h3>{data.projects.fithub.title}</h3>
+              </div>
+              <p>{data.projects.jamz.description}</p>
+              <button className="learn-more">Learn More--{">"}</button>
+            </div>
+          ) : null}
           <div className="logo"></div>
         </div>
       </div>
