@@ -1,58 +1,62 @@
 {
   "projects": {
     "jamz": {
+      "projectName": "jamz",
       "title": "Spotify Journal Application",
       "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
-      "content": [
+      "images": [
         {
-          "heading": "Section 1",
-          "text": "This is the first section of the website."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "Section 2",
-          "text": "This is the second section of the website."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "This is the second section of the website."
         }
       ]
     },
     "arcana": {
+      "projectName": "arcana",
       "title": "Advanced Resiliency Chronicling for Analysis in Network Assessments",
-      "description": "Learn more about our website.",
-      "content": [
+      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "images": [
         {
-          "heading": "Our Mission",
-          "text": "Our mission is to provide high quality content."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "Our Team",
-          "text": "We have a diverse team of experts."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "This is the second section of the website."
         }
       ]
     },
     "uwc": {
+      "projectName": "uwc",
       "title": "The University of Texas at El Paso Writing Center Queue App",
-      "description": "Learn more about our website.",
-      "content": [
+      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "images": [
         {
-          "heading": "Our Mission",
-          "text": "Our mission is to provide high quality content."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "Our Team",
-          "text": "We have a diverse team of experts."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "This is the second section of the website."
         }
       ]
     },
     "fithub": {
+      "projectName": "fithub",
       "title": "Personal Fitness Web-App",
-      "description": "Learn more about our website.",
-      "content": [
+      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "images": [
         {
-          "heading": "Our Mission",
-          "text": "Our mission is to provide high quality content."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "Our Team",
-          "text": "We have a diverse team of experts."
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "This is the second section of the website."
         }
       ]
     }

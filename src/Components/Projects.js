@@ -1,93 +1,60 @@
 import React, { useState } from "react";
 import data from "../data/pageData.json";
+import Project from "./Project";
 
 function Projects() {
-  const [hoveredProject, setHoveredProject] = useState(null);
+  const [hoveredProject, setHoveredProject] = useState('jamz');
   const [selectedProject, setSelectedProject] = useState(null);
-  const openProject = (projectName) => {
 
+  const projects = Object.keys(data.projects);
+
+  const openProject = (projectName) => {
+    setSelectedProject(projectName);
+  };
+
+  const closeProject = () => {
+    setSelectedProject(null);
+  };
+
+  const openNextProject = () => {
+    if (!selectedProject) return;
+
+    const currentIndex = projects.indexOf(selectedProject);
+    console.log("current", currentIndex);
+    const nextIndex = (currentIndex + 1) % projects.length;
+    console.log("next", nextIndex);
+    setSelectedProject(projects[nextIndex]);
+  };
+
+  const openPreviousProject = () => {
+    if (!selectedProject) return;
+
+    const currentIndex = projects.indexOf(selectedProject);
+    const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
+    setSelectedProject(projects[prevIndex]);
   };
 
   return (
     <div className="projects" id="projects">
       <h1>Projects</h1>
-      <div className="project-container">
-        {/* Jamz */}
-        <div
-          className="box spotify-journal "
-          onMouseEnter={() => setHoveredProject("jamz")}
-          onMouseLeave={() => setHoveredProject(null)}
-          onClick={() => setSelectedProject("jamz")}
-        >
-          {hoveredProject === "jamz" ? (
-            <div className="project-info">
-              <div className="title-box">
-                <h3>Spotify Journal Application</h3>
-              </div>
-              <p>{data.projects.jamz.description}</p>
-              <button className="learn-more">Learn More--{">"}</button>
-            </div>
-          ) : null}
-          <div className="logo"></div>
-        </div>
-
-        {/* ARCANA */}
-        <div
-          className="box arcana"
-          onMouseEnter={() => setHoveredProject("arcana")}
-          onMouseLeave={() => setHoveredProject(null)}
-          onClick={() => setSelectedProject("arcana")}
-        >
-          {hoveredProject === "arcana" ? (
-            <div className="project-info">
-              <div className="title-box">
-                <h3>{data.projects.arcana.title}</h3>
-              </div>
-              <p>{data.projects.jamz.description}</p>
-              <button className="learn-more">Learn More--{">"}</button>
-            </div>
-          ) : null}
-
-          <div className="logo"></div>
-        </div>
-
-        {/* UWC */}
-        <div
-          className="box uwc-queue"
-          onMouseEnter={() => setHoveredProject("uwc")}
-          onMouseLeave={() => setHoveredProject(null)}
-          onClick={() => setSelectedProject("uwc")}
-        >
-          {hoveredProject === "uwc" ? (
-            <div className="project-info">
-              <div className="title-box">
-                <h3>{data.projects.uwc.title}</h3>
-              </div>
-              <p>{data.projects.jamz.description}</p>
-              <button className="learn-more">Learn More--{">"}</button>
-            </div>
-          ) : null}
-          <div className="logo"></div>
-        </div>
-
-        {/* Fithub */}
-        <div
-          className="box fithub "
-          onMouseEnter={() => setHoveredProject("fithub")}
-          onMouseLeave={() => setHoveredProject(null)}
-          onClick={() => setSelectedProject("fithub")}
-        >
-          {hoveredProject === "fithub" ? (
-            <div className="project-info">
-              <div className="title-box">
-                <h3>{data.projects.fithub.title}</h3>
-              </div>
-              <p>{data.projects.jamz.description}</p>
-              <button className="learn-more">Learn More--{">"}</button>
-            </div>
-          ) : null}
-          <div className="logo"></div>
-        </div>
+      <div className={`project-container ${selectedProject ? "selected" : ""}`}>
+        {projects.map((projectKey) => (
+          <Project
+            key={projectKey}
+            className={`box ${projectKey} ${
+              selectedProject === projectKey ? "expanded" : ""
+            }`}
+            onMouseEnter={() => setHoveredProject(projectKey)}
+            hoveredProject={hoveredProject}
+            onMouseLeave={() => setHoveredProject(null)}
+            onClick={() => openProject(projectKey)}
+            data={data.projects[projectKey]}
+            isSelected={selectedProject === projectKey}
+            onClose={closeProject}
+            onNext={openNextProject}
+            onPrevious={openPreviousProject}
+          />
+        ))}
       </div>
     </div>
   );
