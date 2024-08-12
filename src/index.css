@@ -308,8 +308,8 @@ h1 {
 }
 
 .arcana {
-  background: linear-gradient(rgba(53, 94, 147, 1), rgba(53, 94, 147, 0.7)),
-    url("/public/Images/fithub_site.png") no-repeat center center;
+  background: linear-gradient(rgba(53, 94, 147, .8), rgba(53, 94, 147, 0.7)),
+    url("/public/Images/arcana-main-page.png") no-repeat center center;
   background-size: cover;
 }
 .arcana .logo {
