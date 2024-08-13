@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import data from "../data/pageData.json";
+import data from "../data/projectData.json";
 import Project from "./Project";
 
 function Projects() {
-  const [hoveredProject, setHoveredProject] = useState('jamz');
+  const [hoveredProject, setHoveredProject] = useState(null);
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = Object.keys(data.projects);

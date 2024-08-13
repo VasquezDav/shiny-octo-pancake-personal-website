@@ -1,5 +1,4 @@
 import React from "react";
-import utep from "../Images/CB_UTEP-6457-e1633559395129.webp";
 import ImageGallery from "./ImageGallery";
 function Project(props) {
   const data = props.data;
