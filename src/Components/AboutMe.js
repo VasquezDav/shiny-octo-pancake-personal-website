@@ -41,7 +41,7 @@ function AboutMe() {
         <div className="overlay"></div>
 
         <div class="panel-image-container-landscape">
-          <img src={data.background.backgroundImage} class="panel-image"></img>
+          <img src={data.background.mainImage} class="panel-image"></img>
         </div>
         <div className="about-me-text-container">
           <div className="text">

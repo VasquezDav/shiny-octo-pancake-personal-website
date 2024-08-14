@@ -68,13 +68,12 @@ h2 {
   border: none;
   font-family: "SomeTypeMonoRegular";
   margin: 10px;
-  font-size: 0.5vw;
+  font-size: .7vw;
 }
 .header-button-container button {
   position: relative;
   margin: 10px;
   padding: 10px 20px;
-  /* font-size: 16px; */
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -165,6 +164,7 @@ h2 {
 .panel-image-container-portrait {
   width: 20%;
   height: 90%;
+  min-width: 230px;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -201,17 +201,19 @@ h2 {
   text-align: left;
   margin-top: 60px;
   margin-left: 50px;
+  overflow-y: scroll;
 }
 
 .text p {
   margin: 0;
-  font-size: 150%;
+  font-size: 1em;
   font-family: "SomeTypeMonoRegular";
+  overflow-y: scroll;
 }
 h1 {
   margin: 0;
   font-family: "SomeTypeMonoRegular";
-  font-size: 4rem;
+  font-size: 254%;
 }
 
 /*Projects*/

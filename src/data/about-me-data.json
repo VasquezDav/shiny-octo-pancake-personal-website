@@ -1,17 +1,18 @@
 {
   "aboutme": {
-    "description": "Personal Background Greetings! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate"
+    "description": "Hello, my name is David"
     ,"mainImage":"/Images/about-me/headshot.jpeg"
-    ,"backgroundImage":"/Images/about-me/waterfall.jpeg"
-},
-  "background": {
-    "description": "Background  ! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate"
-    ,"mainImage":"/Images/about-me/el-paso-skyline.jpg"
     ,"backgroundImage":"/Images/about-me/elpaso-downtown.jpg"
 },
+  "background": {
+    "description": "valuses Personal Background Greetings! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate",
+    "mainImage": "/Images/about-me/front_of_utep.webp",
+    "backgroundImage": "/Images/about-me/utep-wideshot.png"
+  },
   "values": {
-    "description": "valuses Personal Background Greetings! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate"
-    ,"mainImage":"/Images/about-me/front_of_utep.webp"
-    ,"backgroundImage":"/Images/about-me/utep-wideshot.png"
+    
+    "description": "Background  ! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate"
+    ,"mainImage":"/Images/about-me/el-paso-skyline.jpg"
+    ,"backgroundImage":"/Images/about-me/el-paso-skyline.jpg"
 }
 }
