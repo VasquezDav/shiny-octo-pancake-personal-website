@@ -13,7 +13,7 @@ function AboutMe() {
           ></img>
           <img
             src={data.aboutme.backgroundImage}
-            className="pan-image"
+            className="pan-image second"
           ></img>
         </div>
         <div className="overlay"></div>
@@ -35,7 +35,7 @@ function AboutMe() {
           ></img>
           <img
             src={data.background.backgroundImage}
-            className="pan-image"
+            className="pan-image second"
           ></img>
         </div>
         <div className="overlay"></div>
@@ -52,7 +52,7 @@ function AboutMe() {
       <div className="about-me-section">
         <div className="about-me-background">
           <img src={data.values.backgroundImage} className="pan-image"></img>
-          <img src={data.values.backgroundImage} className="pan-image"></img>
+          <img src={data.values.backgroundImage} className="pan-image second"></img>
         </div>
         <div className="overlay"></div>
         <div className="about-me-text-container">

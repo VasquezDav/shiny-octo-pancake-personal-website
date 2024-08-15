@@ -68,7 +68,7 @@ h2 {
   border: none;
   font-family: "SomeTypeMonoRegular";
   margin: 10px;
-  font-size: .7vw;
+  font-size: 0.7vw;
 }
 .header-button-container button {
   position: relative;
@@ -85,7 +85,7 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 128px;
+  width: 100%;
   height: 40px;
   border: 2px solid black;
   border-radius: 50px;
@@ -144,6 +144,10 @@ h2 {
 .pan-image {
   width: 50%; /* Each image takes up half the container */
   object-fit: cover;
+}
+.second {
+  transform: scalex(-1);
+  background-color: rebeccapurple;
 }
 .about-me-background.faster {
   animation: pan-right 50s linear infinite;
@@ -320,15 +324,27 @@ h1 {
   /* background-color: red; */
 }
 
+.logo-container {
+  height: 10%;
+}
+
 .logo {
-  /* margin-top: 5px; */
-  height: 35%;
-  width: 80%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   align-self: center;
   transition: transform 5s ease;
+}
+
+.logo.min {
+  /* margin-top: 5px; */
+  height: 35%;
+  width: 80%;
+}
+.logo.max {
+  height: 100%;
+  width: auto;
+  width: 80vh;
 }
 
 .jamz {
@@ -344,6 +360,10 @@ h1 {
   background: linear-gradient(rgba(53, 94, 147, 0.8), rgba(53, 94, 147, 0.7)),
     url("/public/Images/arcana/arcana-main-page.png") no-repeat center center;
   background-size: cover;
+}
+.arcana.max {
+  height: 20vh;
+  width: 80vh;
 }
 .arcana .logo {
   background-image: url("/public/Images/arcana_logo.png");
@@ -393,7 +413,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 253%;
+  height: 90%;
 }
 .information {
   flex: 1;
@@ -401,9 +421,14 @@ h1 {
   box-sizing: border-box;
   display: flex;
   margin: 10px;
+  height: 100%;
 }
-.descriptions {
-  /* background-color: red; */
+
+.description {
+  height: 50%;
+}
+.background-info {
+  height: 50%;
 }
 .descriptions h3 {
   font-family: "Monomaniac One", sans-serif;
@@ -412,9 +437,14 @@ h1 {
   font-style: normal;
   margin: 10px;
 }
+.info-box {
+  height: 80%;
+  overflow: scroll;
+}
 .descriptions p {
   line-height: 2vw;
   font-size: 1.3vw;
+  max-height: 100%;
 
   padding-right: 50px;
   animation: fadeIn 1.4s ease-in-out;
@@ -479,6 +509,7 @@ iframe {
   /* margin: auto; */
   height: 120vh;
   padding: 10px;
+  zoom: 1;
 }
 
 /*Contact Me*/
@@ -628,11 +659,13 @@ iframe {
 
 .image-description .description {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 0.5vw;
   text-align: center;
+  font-family: monospace;
 }
 .image-description {
   height: 5%;
+  padding: 5%;
 }
 .image-selection {
   display: flex;
@@ -649,13 +682,13 @@ iframe {
 .thumbnailContainer {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   margin-top: 10px;
 }
 
 .thumbnail {
-  width: 100px;
-  height: 75px;
+  width: 12%;
+
   object-fit: cover;
   cursor: pointer;
   border: 2px solid transparent;

@@ -35,8 +35,9 @@ const ImageGallery = ({ images }) => {
       </div>
 
       <div className="image-selection">
-        <button onClick={goToPrevious} className="prev-button"></button>
         <div className="thumbnailContainer">
+          <button onClick={goToPrevious} className="prev-button"></button>
+
           {images.map((image, index) => (
             <img
               key={index}
@@ -48,8 +49,9 @@ const ImageGallery = ({ images }) => {
               onClick={() => goToImage(index)}
             />
           ))}
+
+          <button onClick={goToNext} className="next-button"></button>
         </div>
-        <button onClick={goToNext} className="next-button"></button>
       </div>
     </div>
   );

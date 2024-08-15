@@ -23,7 +23,10 @@ function Project(props) {
       onMouseLeave={props.onMouseLeave}
       onClick={props.onClick}
     >
-      <div className="logo"></div>
+      <div className={props.isSelected ? "logo-container" : "logo min"}>
+        {props.isSelected && <div className="logo max"></div>}
+      </div>
+
       {props.hoveredProject === data.projectName && !props.isSelected ? (
         <div className="project-info">
           <div className="title-box">
@@ -41,32 +44,23 @@ function Project(props) {
               <div className="left-section">
                 <div className="description">
                   <h3>Description</h3>
-                  <p>
-                    Inspiration: What fuels my passion for software engineering?
-                    It's the prospect of making a tangible difference in
-                    people's lives. Whether it's simplifying everyday tasks.
-                  </p>
+                  <div className="info-box">
+                    <p>{data.description}</p>
+                  </div>
                 </div>
                 <div className="background-info">
                   <h3>Background</h3>
-                  <p>
-                    Inspiration: What fuels my passion for software engineering?
-                    It's the prospect of making a tangible difference in
-                    people's lives. Whether it's simplifying everyday tasks.
-                  </p>
+                  <div className="info-box">
+                    <p>{data.background}</p>
+                  </div>
                 </div>
               </div>
               <div className="right-section">
                 <div className="purpose">
                   <h3>Purpose</h3>
-                  <p>
-                    Inspiration: What fuels my passion for software engineering?
-                    It's the prospect of making a tangible difference in
-                    people's lives. Whether it's simplifying everyday tasks.
-                    What fuels my passion for software engineering? It's the
-                    prospect of making a tangible difference in people's lives.
-                    Whether it's simplifying everyday tasks.
-                  </p>
+                  <div className="info-box">
+                    <p>{data.purpose}</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -3,15 +3,21 @@
     "jamz": {
       "projectName": "jamz",
       "title": "Spotify Journal Application",
-      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "description": "Spotify jamz is a web application for users to keep a journal of their favorite music in a unique way. Jamz works by asking what song you want to have recorded for that day, it could be a song you just discovered, a song that you rediscovered, or a song that describes how you are feeling that day. The significance of the song is up to the user you can specify the significance with a message to store with the song, on that date. From there it well displays all the music you have listen to in a calendar format for you to go back and view all your entries. Jamz will also include the option to rate and review songs and albums for your own records.",
+      "background": "Currently this app is still in the early stages of development and only has a handful of Figma pages and various sketches of how the overall components will interact with each other. I plan to use either React to practice React or Angular to learn Angular with a python backend and a MySQL data base to store users journal entries. Along with this I will be utilizing Spotify API for the music side of the data entry.",
+      "purpose": "I used to have this calendar in my room in high school it was a normal Bob Ross calendar, but instead of crossing out the days I wrote a song in every day that passed. Where the only relevance of the song is whatever reason I had for it that day. I found the calendar recently and it was interesting to see all the songs that I had written down. It would have been even more interesting to know the significance of listening to Yellow Submarine Christmas of 2018, but my reasons are now unknown. Along with this I also wanted to keep track of what I think of songs and albums when I listen to them.",
       "images": [
         {
-          "heading": "/Images/jamz/page2.png",
-          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
+          "heading": "/Images/jamz/jamsLanding.png",
+          "img-description": "Here is a rough design of what the first screen would look like when opened. Clicking the record would allow you to search for a song through Spotifys API, it will include a cool spinning disc animation like the one on the Nintendo Wii when you insert a game in."
         },
         {
           "heading": "/Images/jamz/page1.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "This is the home screen of what you had listened to that month in this calendar format with the option to review songs or albums in the top conner. The journal entries would probably come when you hover over each day, its up in the air I am unstoppable in Figma (I don’t have to worry about the scary css yet)"
+        },
+        {
+          "heading": "/Images/jamz/page2.png",
+          "img-description": "And here we have all my Figma pages just a fun look of all my ideas and approaches I have for this project."
         }
       ]
     },
@@ -19,6 +25,8 @@
       "projectName": "arcana",
       "title": "Advanced Resiliency Chronicling for Analysis in Network Assessments",
       "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "background": "",
+      "purpose": "",
       "images": [
         {
           "heading": "/Images/arcana/arcana-main-page.png",
@@ -34,6 +42,8 @@
       "projectName": "uwc",
       "title": "The University of Texas at El Paso Writing Center Queue App",
       "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "background": "",
+      "purpose": "",
       "images": [
         {
           "heading": "/Images/uwc/uwc_site.png",
@@ -49,6 +59,8 @@
       "projectName": "fithub",
       "title": "Personal Fitness Web-App",
       "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "background": "",
+      "purpose": "",
       "images": [
         {
           "heading": "/Images/fithub/page1.png",
