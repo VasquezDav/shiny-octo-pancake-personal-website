@@ -334,17 +334,14 @@ h1 {
   background-position: center;
   align-self: center;
   transition: transform 5s ease;
+  aspect-ratio: 3/2;
 }
 
 .logo.min {
-  /* margin-top: 5px; */
-  height: 35%;
   width: 80%;
 }
 .logo.max {
-  height: 100%;
-  width: auto;
-  width: 80vh;
+  width: 18vh;
 }
 
 .jamz {
@@ -355,16 +352,16 @@ h1 {
 .jamz .logo {
   background-image: url("/public/Images/Spotify\ Jamz.png");
 }
+.jamz.max {
 
+  width: 80vh;
+}
 .arcana {
   background: linear-gradient(rgba(53, 94, 147, 0.8), rgba(53, 94, 147, 0.7)),
     url("/public/Images/arcana/arcana-main-page.png") no-repeat center center;
   background-size: cover;
 }
-.arcana.max {
-  height: 20vh;
-  width: 80vh;
-}
+
 .arcana .logo {
   background-image: url("/public/Images/arcana_logo.png");
 }
@@ -413,7 +410,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 90%;
+  height: 80%;
 }
 .information {
   flex: 1;
@@ -426,6 +423,12 @@ h1 {
 
 .description {
   height: 50%;
+}
+.purpose {
+  height: 100%;
+}
+.purpose .info-box {
+  height: 91%;
 }
 .background-info {
   height: 50%;

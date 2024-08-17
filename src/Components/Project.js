@@ -27,6 +27,7 @@ function Project(props) {
         {props.isSelected && <div className="logo max"></div>}
       </div>
 
+
       {props.hoveredProject === data.projectName && !props.isSelected ? (
         <div className="project-info">
           <div className="title-box">
