@@ -33,7 +33,27 @@
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "/Images/elpaso.jpg",
+          "heading": "/Images/arcana/arcana1.png",
+          "img-description": "This is the second section of the website."
+        },
+        {
+          "heading": "/Images/arcana/arcana2.png",
+          "img-description": "This is the second section of the website."
+        },
+        {
+          "heading": "/Images/arcana/arcana3.png",
+          "img-description": "This is the second section of the website."
+        },
+        {
+          "heading": "/Images/arcana/arcana4.png",
+          "img-description": "This is the second section of the website."
+        },
+        {
+          "heading": "/Images/arcana/arcana5.png",
+          "img-description": "This is the second section of the website."
+        },
+        {
+          "heading": "/Images/arcana/arcana6.png",
           "img-description": "This is the second section of the website."
         }
       ]
@@ -46,7 +66,7 @@
       "purpose": "",
       "images": [
         {
-          "heading": "/Images/uwc/uwc_site.png",
+          "heading": "/Images/uwc/uwc-site.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {

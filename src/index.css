@@ -353,7 +353,6 @@ h1 {
   background-image: url("/public/Images/Spotify\ Jamz.png");
 }
 .jamz.max {
-
   width: 80vh;
 }
 .arcana {
@@ -662,16 +661,20 @@ iframe {
 
 .image-description .description {
   margin-top: 10px;
-  font-size: 0.5vw;
+  font-size: 0.7vw;
   text-align: center;
   font-family: monospace;
 }
 .image-description {
   height: 5%;
-  padding: 5%;
+  padding: 2%;
 }
 .image-selection {
   display: flex;
+  width: 70%;
+  height: 15%;
+  justify-content: center;
+  justify-content: space-between;
 }
 .image-selection button {
   width: 12%;
@@ -684,14 +687,17 @@ iframe {
 
 .thumbnailContainer {
   display: flex;
-  justify-content: center;
   gap: 15px;
   margin-top: 10px;
+  width: 40vh;
+  height: 90%;
+  overflow-x: auto;
 }
 
 .thumbnail {
-  width: 12%;
-
+  width: 12vh;
+  height: 8vh;
+  gap: 10px;
   object-fit: cover;
   cursor: pointer;
   border: 2px solid transparent;

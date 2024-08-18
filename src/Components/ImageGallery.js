@@ -1,8 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const ImageGallery = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  const containerRef = useRef(null);
+  useEffect(() => {
+    if (containerRef.current) {
+      const selectedThumbnail = containerRef.current.querySelector(
+        ".thumbnail.selected"
+      );
+      if (selectedThumbnail) {
+        selectedThumbnail.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest", // Ensure it doesn't scroll vertically
+          inline: "center", // Center the thumbnail horizontally
+        });
+      }
+    }
+  }, [currentIndex]);
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
@@ -35,9 +49,9 @@ const ImageGallery = ({ images }) => {
       </div>
 
       <div className="image-selection">
-        <div className="thumbnailContainer">
-          <button onClick={goToPrevious} className="prev-button"></button>
-
+        <button onClick={goToPrevious} className="prev-button"></button>
+        <div className="thumbnailContainer" ref={containerRef}>
+          {" "}
           {images.map((image, index) => (
             <img
               key={index}
@@ -49,9 +63,8 @@ const ImageGallery = ({ images }) => {
               onClick={() => goToImage(index)}
             />
           ))}
-
-          <button onClick={goToNext} className="next-button"></button>
         </div>
+        <button onClick={goToNext} className="next-button"></button>
       </div>
     </div>
   );
