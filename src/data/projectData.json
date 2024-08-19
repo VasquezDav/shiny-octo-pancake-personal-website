@@ -25,36 +25,32 @@
       "projectName": "arcana",
       "title": "Advanced Resiliency Chronicling for Analysis in Network Assessments",
       "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
-      "background": "",
-      "purpose": "",
+      "background": " To complete this project we used a Python backend and MongoDB database to manipulate all the data that would be inputted by the analyst. For the front end we needed to have a smooth, minimal, easy to navigate user interface that would be intuitive for the any analysts to use, this lead us to use React because of its component-based architecture.",
+      "purpose": "This was a collaborative project that I had worked on my last year of university along with seven other members, to produce a product for the Department of Defense White Sands Missile Base division. This project was spilt into two sections, the first half when we planned and documented the whole project with various models to work with the customer meet their expectation and the second half where we would create our design and present it. Of course, our application was not going to be use for such secure documentation for the military, but it was a good practice to work with experienced developers to replicate a real workplace.",
       "images": [
         {
-          "heading": "/Images/arcana/arcana-main-page.png",
-          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
-        },
-        {
           "heading": "/Images/arcana/arcana1.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "Here are some images of our finished product of our UI and the different features we were able to implement."
         },
         {
           "heading": "/Images/arcana/arcana2.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "All of the actions taken are recorded here, for the analysts to point fingers at whoever messed up."
         },
         {
           "heading": "/Images/arcana/arcana3.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "Here we have the UI that shows the all the ingest logs that our stored in our database (MongoDB)."
         },
         {
           "heading": "/Images/arcana/arcana4.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "Arcana2: Here we have what an opened project looks like, currently in the list view where we can view the information of all the events and edit the specific events as needed. "
         },
         {
           "heading": "/Images/arcana/arcana5.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "This is another view to select which icons to use in the project and the ability to upload any images to use as icons."
         },
         {
           "heading": "/Images/arcana/arcana6.png",
-          "img-description": "This is the second section of the website."
+          "img-description": "The graph view shows all the events as nodes to see the relationships between each of them in different ways."
         }
       ]
     },
@@ -71,7 +67,7 @@
         },
         {
           "heading": "/Images/elpaso.jpg",
-          "img-description": "This is the second section of the website."
+          "img-description": ""
         }
       ]
     },

@@ -2,7 +2,19 @@ import React, { useEffect, useRef, useState } from "react";
 
 const ImageGallery = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [isZoomed, setIsZoomed] = useState(false);
+
   const containerRef = useRef(null);
+
+  const toggleFullScreen = () => {
+    setIsFullScreen(!isFullScreen);
+    setIsZoomed(false);
+  };
+  const toggleZoom = () => {
+    setIsZoomed(!isZoomed);
+  };
+
   useEffect(() => {
     if (containerRef.current) {
       const selectedThumbnail = containerRef.current.querySelector(
@@ -35,12 +47,29 @@ const ImageGallery = ({ images }) => {
 
   return (
     <div className="container">
+      {isFullScreen && (
+        <div className="fullscreen-overlay" onClick={toggleFullScreen}>
+          <img
+            src={images[currentIndex].heading}
+            alt="Full-Screen View"
+            className={`fullscreen-image ${isZoomed ? "zoomed" : ""}`}
+            onClick={(e) => {
+              e.stopPropagation(); // Prevent the full-screen toggle on image click
+              toggleZoom();
+            }}
+          />
+        </div>
+      )}
       <div className="imageWrapper">
-        <img
-          src={images[currentIndex].heading}
-          alt={`Slide ${currentIndex}`}
-          className="image"
-        />
+        <div className="image-container">
+          <img
+            src={images[currentIndex].heading}
+            alt={`Slide ${currentIndex}`}
+            className="image"
+            onClick={toggleFullScreen}
+          />
+        </div>
+
         <div className="image-description">
           <p className="description">
             {images[currentIndex]["img-description"]}

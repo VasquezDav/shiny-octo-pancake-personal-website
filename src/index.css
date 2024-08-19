@@ -224,6 +224,8 @@ h1 {
 .projects {
   width: 95%;
   height: 90vh;
+  min-width: 54vh;
+  min-height: auto;
   margin: auto;
   margin-top: 50px;
   justify-self: center;
@@ -418,6 +420,7 @@ h1 {
   display: flex;
   margin: 10px;
   height: 100%;
+  width: 50%;
 }
 
 .description {
@@ -456,6 +459,7 @@ h1 {
 }
 .images {
   animation: fadeIn 1.4s ease-in-out;
+  justify-content: center;
 }
 .information .left-section {
   display: flex;
@@ -631,6 +635,7 @@ iframe {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
+  width: 90%;
 }
 
 .button {
@@ -642,8 +647,9 @@ iframe {
 
 .imageWrapper {
   background-color: #e6e6e6;
-  height: 68%;
-  width: 80%;
+  height: auto;
+  width: 92%;
+  max-width: 92%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -651,14 +657,41 @@ iframe {
   margin-bottom: 10px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
-
-.image {
-  margin-top: 5%;
-  object-fit: contain;
+.image-container {
   height: 74%;
-  width: 91%;
+  width: auto;
+  max-width: 95%;
+  margin-top: 1%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+.fullscreen-image.zoomed {
+  transform: scale(2);
+  cursor: zoom-out;
+}
 .image-description .description {
   margin-top: 10px;
   font-size: 0.7vw;
