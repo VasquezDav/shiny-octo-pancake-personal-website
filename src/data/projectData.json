@@ -8,7 +8,7 @@
       "purpose": "I used to have this calendar in my room in high school it was a normal Bob Ross calendar, but instead of crossing out the days I wrote a song in every day that passed. Where the only relevance of the song is whatever reason I had for it that day. I found the calendar recently and it was interesting to see all the songs that I had written down. It would have been even more interesting to know the significance of listening to Yellow Submarine Christmas of 2018, but my reasons are now unknown. Along with this I also wanted to keep track of what I think of songs and albums when I listen to them.",
       "images": [
         {
-          "heading": "/shiny-octo-pancake-personal-website/assets/Images/jamz/jamsLanding.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/jamz/JamsLanding.png",
           "img-description": "Here is a rough design of what the first screen would look like when opened. Clicking the record would allow you to search for a song through Spotifys API, it will include a cool spinning disc animation like the one on the Nintendo Wii when you insert a game in."
         },
         {
@@ -105,8 +105,7 @@
         {
           "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page6.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
-        }
-        ,
+        },
         {
           "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/team-photo.jpeg",
           "img-description": "And here is the developers of this groundbreaking fitness tracking software(My junior year Agile Devlopment team we that we took a picture outside the classroom)"

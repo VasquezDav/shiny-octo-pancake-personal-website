@@ -267,9 +267,8 @@ h1 {
 .title-box {
   display: flex;
   justify-content: center;
-  font-size: xx-large;
   font-family: "SansSofiaRegular";
-  font-size: 3cap;
+  font-size: 1vw;
   text-align: center;
 }
 
