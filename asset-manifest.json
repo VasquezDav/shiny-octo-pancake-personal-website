@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shiny-octo-pancake-personal-website/static/css/main.cb944865.css",
+    "main.js": "/shiny-octo-pancake-personal-website/static/js/main.f17ae89c.js",
+    "static/js/453.253ccfac.chunk.js": "/shiny-octo-pancake-personal-website/static/js/453.253ccfac.chunk.js",
+    "static/media/fithub_site.png": "/shiny-octo-pancake-personal-website/static/media/fithub_site.013bc63750bf9a11d881.png",
+    "static/media/background.jpg": "/shiny-octo-pancake-personal-website/static/media/background.a034c1b33f423c538a7d.jpg",
+    "static/media/JamsLanding.png": "/shiny-octo-pancake-personal-website/static/media/JamsLanding.9b989e73456f7a5f4cbf.png",
+    "static/media/uwc_site.png": "/shiny-octo-pancake-personal-website/static/media/uwc_site.a6239059f810f0240d9a.png",
+    "static/media/SofiaSans-Regular.ttf": "/shiny-octo-pancake-personal-website/static/media/SofiaSans-Regular.6d587c9940f9a914bb10.ttf",
+    "static/media/SometypeMono-Regular.ttf": "/shiny-octo-pancake-personal-website/static/media/SometypeMono-Regular.add6f37b86dd7f288e83.ttf",
+    "static/media/arcana-main-page.png": "/shiny-octo-pancake-personal-website/static/media/arcana-main-page.d4fa6df80d51cdcfda4e.png",
+    "static/media/uwc_logo.png": "/shiny-octo-pancake-personal-website/static/media/uwc_logo.71e8f054204f65ad69a4.png",
+    "static/media/x.png": "/shiny-octo-pancake-personal-website/static/media/x.a4db02fdc3ca59c5cbd5.png",
+    "static/media/right-outline.png": "/shiny-octo-pancake-personal-website/static/media/right-outline.053a8b853ad4a5e6fe46.png",
+    "static/media/logo.svg": "/shiny-octo-pancake-personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shiny-octo-pancake-personal-website/index.html",
+    "main.cb944865.css.map": "/shiny-octo-pancake-personal-website/static/css/main.cb944865.css.map",
+    "main.f17ae89c.js.map": "/shiny-octo-pancake-personal-website/static/js/main.f17ae89c.js.map",
+    "453.253ccfac.chunk.js.map": "/shiny-octo-pancake-personal-website/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb944865.css",
+    "static/js/main.f17ae89c.js"
+  ]
+}
