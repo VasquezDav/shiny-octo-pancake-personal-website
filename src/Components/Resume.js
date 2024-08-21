@@ -7,7 +7,7 @@ function Resume() {
     <div className="resume" id="resume">
       <h1>Resume</h1>
       <iframe
-        src="/myResume.pdf"
+        src="/shiny-octo-pancake-personal-website//myResume.pdf"
         title="PDF Viewer"
       />
     </div>
