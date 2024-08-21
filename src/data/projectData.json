@@ -24,7 +24,7 @@
     "arcana": {
       "projectName": "arcana",
       "title": "Advanced Resiliency Chronicling for Analysis in Network Assessments",
-      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "description": "The Arcana system is a data visualization tool developed for the Department of Defense to provide an organized representation of cyber events in a sequential format. We had designed it specifically for cybersecurity analysts, Arcana uses graph and node-based visuals to map the relationships between events in a cyber-attack. Analysts can interact with and manipulate the graph, import logs, and even edit event details post-ingestion, giving flexibility in managing and analyzing cyber incidents. Arcana is a self-contained, standalone system that operates independently, relying solely on its database solution without the need for integration with other systems.",
       "background": " To complete this project we used a Python backend and MongoDB database to manipulate all the data that would be inputted by the analyst. For the front end we needed to have a smooth, minimal, easy to navigate user interface that would be intuitive for the any analysts to use, this lead us to use React because of its component-based architecture.",
       "purpose": "This was a collaborative project that I had worked on my last year of university along with seven other members, to produce a product for the Department of Defense White Sands Missile Base division. This project was spilt into two sections, the first half when we planned and documented the whole project with various models to work with the customer meet their expectation and the second half where we would create our design and present it. Of course, our application was not going to be use for such secure documentation for the military, but it was a good practice to work with experienced developers to replicate a real workplace.",
       "images": [
@@ -57,24 +57,28 @@
     "uwc": {
       "projectName": "uwc",
       "title": "The University of Texas at El Paso Writing Center Queue App",
-      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
-      "background": "",
-      "purpose": "",
+      "description": "The UWC queue app is a web application designed for the front of the University Writing Center to keep track of all the writing centers consultants in the order they are assigned to help the students at The University of Texas at El Paso. This system is designed to ingest a schedule in the form of a .xlsx file and process it so that it is visually represented for the user to input consultants into queue to be assigned to a student. The programs allow for the modification of the queue by reordering the queue as needed. I do plan on expanding on this project such as adding a section for consultants to see their position in the queue, editing information of the consultants on the website, and creating a visual schedule with notifications to when consultants clock in and out ",
+      "background": "This program was developed as a single page web application with different since it serves mostly one purpose, this led me to the choice of using React. This allows me to create separate components that communicate with each other to create a well flowing program for the user. I used Firebase as the database as well as to host the site, this decision was for Firebase’s real-time data base that I could utilize for the future features I planned for this project.",
+      "purpose": "The summer before I graduated, I was beat up that I didn’t get any internships my time in university, to me that was my last chance to have some experience before I graduated. That lasted a bit until I realized I could be miserable or be miserable with a project. That summer I was working at writing center at The University of Texas at El Paso as a writing consultant, during this time the number of students that can to the writing center was fairly light so what perfect time to do start something. It didn’t take long till I realized what I wanted to work on, the way we get picked relied on slits of paper with our names on them sorted in a vertical line known as the queue. You get put into the queue once you clock in. I did not trust the queue. I’d get feeling s of “was I not just called 2 minutes ago?” or “Brother, I am literally not clocked in”. So, I decided to put the receptionist out of a job and automate it. Not really but, it was a cool project that could be useful at the writing center and would help me with web development. So because of my disappointment and my distrust for Daniela(im kidding) I started this project.",
       "images": [
         {
           "heading": "/Images/uwc/uwc-site.png",
-          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
+          "img-description": "This is what my project looks like now with all the consultants on the right with the times they clock in and the queue on the right and everyone who is in a session in the middle"
         },
         {
           "heading": "/Images/elpaso.jpg",
-          "img-description": ""
+          "img-description": "This is the slits of paper that that would determine who will get a student next "
+        },
+        {
+          "heading": "/Images/elpaso.jpg",
+          "img-description": "And this is the current recepionist using the program now"
         }
       ]
     },
     "fithub": {
       "projectName": "fithub",
       "title": "Personal Fitness Web-App",
-      "description": "TuneCritic is a comprehensive music review application designed for music enthusiasts to discover, review, and share their favorite tunes. Whether you’re a casual listener or a hardcore audiophile, TuneCritic offers a platform to express your opinions on the latest tracks, albums, and artists. Additionally, users can log their daily listening habits to generate a personalized music collage at the end of each month, capturing a visual snapshot of their musical journey.",
+      "description": "The UWC queue app is a web application designed for the front of the University Writing Center to keep track of all the writing centers consultants in the order they are assigned to help the students at The University of Texas at El Paso. This system is designed to ingest a schedule in the form of a .xlsx file and process it so that it is visually represented for the user to input consultants into queue to be assigned to a student. The programs allow for the modification of the queue by reordering the queue as needed. I do plan on expanding on this project such as adding a section for consultants to see their position in the queue, editing information of the consultants on the website, and creating a visual schedule with notifications to when consultants clock in and out ",
       "background": "",
       "purpose": "",
       "images": [
@@ -101,6 +105,11 @@
         {
           "heading": "/Images/fithub/page6.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
+        }
+        ,
+        {
+          "heading": "/Images/fithub/team-photo.jpeg",
+          "img-description": "And here is the developers of this groundbreaking fitness tracking software(My junior year Agile Devlopment team we that we took a picture outside the classroom)"
         }
       ]
     }
