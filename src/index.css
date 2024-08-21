@@ -42,7 +42,7 @@ code {
 /*Header*/
 .header {
   display: flex;
-  height: 5vh;
+  height: 20%;
   transform: translateZ(0);
   justify-content: space-around;
   background-color: #fff7ea;
