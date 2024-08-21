@@ -14,6 +14,7 @@ function AboutMe() {
           <img
             src={data.aboutme.backgroundImage}
             className="pan-image second"
+            alt="Background"
           ></img>
         </div>
         <div className="overlay"></div>

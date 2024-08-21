@@ -8,15 +8,15 @@
       "purpose": "I used to have this calendar in my room in high school it was a normal Bob Ross calendar, but instead of crossing out the days I wrote a song in every day that passed. Where the only relevance of the song is whatever reason I had for it that day. I found the calendar recently and it was interesting to see all the songs that I had written down. It would have been even more interesting to know the significance of listening to Yellow Submarine Christmas of 2018, but my reasons are now unknown. Along with this I also wanted to keep track of what I think of songs and albums when I listen to them.",
       "images": [
         {
-          "heading": "/Images/jamz/jamsLanding.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/jamz/jamsLanding.png",
           "img-description": "Here is a rough design of what the first screen would look like when opened. Clicking the record would allow you to search for a song through Spotifys API, it will include a cool spinning disc animation like the one on the Nintendo Wii when you insert a game in."
         },
         {
-          "heading": "/Images/jamz/page1.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/jamz/page1.png",
           "img-description": "This is the home screen of what you had listened to that month in this calendar format with the option to review songs or albums in the top conner. The journal entries would probably come when you hover over each day, its up in the air I am unstoppable in Figma (I don’t have to worry about the scary css yet)"
         },
         {
-          "heading": "/Images/jamz/page2.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/jamz/page2.png",
           "img-description": "And here we have all my Figma pages just a fun look of all my ideas and approaches I have for this project."
         }
       ]
@@ -29,27 +29,27 @@
       "purpose": "This was a collaborative project that I had worked on my last year of university along with seven other members, to produce a product for the Department of Defense White Sands Missile Base division. This project was spilt into two sections, the first half when we planned and documented the whole project with various models to work with the customer meet their expectation and the second half where we would create our design and present it. Of course, our application was not going to be use for such secure documentation for the military, but it was a good practice to work with experienced developers to replicate a real workplace.",
       "images": [
         {
-          "heading": "/Images/arcana/arcana1.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/arcana/arcana1.png",
           "img-description": "Here are some images of our finished product of our UI and the different features we were able to implement."
         },
         {
-          "heading": "/Images/arcana/arcana2.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/arcana/arcana2.png",
           "img-description": "All of the actions taken are recorded here, for the analysts to point fingers at whoever messed up."
         },
         {
-          "heading": "/Images/arcana/arcana3.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/arcana/arcana3.png",
           "img-description": "Here we have the UI that shows the all the ingest logs that our stored in our database (MongoDB)."
         },
         {
-          "heading": "/Images/arcana/arcana4.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/arcana/arcana4.png",
           "img-description": "Arcana2: Here we have what an opened project looks like, currently in the list view where we can view the information of all the events and edit the specific events as needed. "
         },
         {
-          "heading": "/Images/arcana/arcana5.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/arcana/arcana5.png",
           "img-description": "This is another view to select which icons to use in the project and the ability to upload any images to use as icons."
         },
         {
-          "heading": "/Images/arcana/arcana6.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/arcana/arcana6.png",
           "img-description": "The graph view shows all the events as nodes to see the relationships between each of them in different ways."
         }
       ]
@@ -62,15 +62,15 @@
       "purpose": "The summer before I graduated, I was beat up that I didn’t get any internships my time in university, to me that was my last chance to have some experience before I graduated. That lasted a bit until I realized I could be miserable or be miserable with a project. That summer I was working at writing center at The University of Texas at El Paso as a writing consultant, during this time the number of students that can to the writing center was fairly light so what perfect time to do start something. It didn’t take long till I realized what I wanted to work on, the way we get picked relied on slits of paper with our names on them sorted in a vertical line known as the queue. You get put into the queue once you clock in. I did not trust the queue. I’d get feeling s of “was I not just called 2 minutes ago?” or “Brother, I am literally not clocked in”. So, I decided to put the receptionist out of a job and automate it. Not really but, it was a cool project that could be useful at the writing center and would help me with web development. So because of my disappointment and my distrust for Daniela(im kidding) I started this project.",
       "images": [
         {
-          "heading": "/Images/uwc/uwc-site.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/uwc/uwc-site.png",
           "img-description": "This is what my project looks like now with all the consultants on the right with the times they clock in and the queue on the right and everyone who is in a session in the middle"
         },
         {
-          "heading": "/Images/elpaso.jpg",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/elpaso.jpg",
           "img-description": "This is the slits of paper that that would determine who will get a student next "
         },
         {
-          "heading": "/Images/elpaso.jpg",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/elpaso.jpg",
           "img-description": "And this is the current recepionist using the program now"
         }
       ]
@@ -83,32 +83,32 @@
       "purpose": "",
       "images": [
         {
-          "heading": "/Images/fithub/page1.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page1.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "/Images/fithub/page2.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page2.png",
           "img-description": "This is the second section of the website."
         },
         {
-          "heading": "/Images/fithub/page3.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page3.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "/Images/fithub/page4.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page4.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "/Images/fithub/page5.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page5.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         },
         {
-          "heading": "/Images/fithub/page6.png",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page6.png",
           "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
         }
         ,
         {
-          "heading": "/Images/fithub/team-photo.jpeg",
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/team-photo.jpeg",
           "img-description": "And here is the developers of this groundbreaking fitness tracking software(My junior year Agile Devlopment team we that we took a picture outside the classroom)"
         }
       ]
