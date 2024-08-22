@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shiny-octo-pancake-personal-website/static/css/main.e69d8ea8.css",
-    "main.js": "/shiny-octo-pancake-personal-website/static/js/main.5e529a68.js",
+    "main.js": "/shiny-octo-pancake-personal-website/static/js/main.0cf03a3e.js",
     "static/js/453.253ccfac.chunk.js": "/shiny-octo-pancake-personal-website/static/js/453.253ccfac.chunk.js",
     "static/media/fithub_site.png": "/shiny-octo-pancake-personal-website/static/media/fithub_site.013bc63750bf9a11d881.png",
     "static/media/background.jpg": "/shiny-octo-pancake-personal-website/static/media/background.a034c1b33f423c538a7d.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/shiny-octo-pancake-personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/shiny-octo-pancake-personal-website/index.html",
     "main.e69d8ea8.css.map": "/shiny-octo-pancake-personal-website/static/css/main.e69d8ea8.css.map",
-    "main.5e529a68.js.map": "/shiny-octo-pancake-personal-website/static/js/main.5e529a68.js.map",
+    "main.0cf03a3e.js.map": "/shiny-octo-pancake-personal-website/static/js/main.0cf03a3e.js.map",
     "453.253ccfac.chunk.js.map": "/shiny-octo-pancake-personal-website/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e69d8ea8.css",
-    "static/js/main.5e529a68.js"
+    "static/js/main.0cf03a3e.js"
   ]
 }
