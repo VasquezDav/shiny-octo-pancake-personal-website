@@ -1,16 +1,16 @@
 {
   "aboutme": {
-    "description": "Hello, my name is David",
+    "description": "Hi, my name is David Vasquez, and I'm a passionate software engineer with a deep interest in software development. I’m driven by a desire to create and improve a wide range of websites and programs, constantly pushing myself to learn and grow in my field. Whether it's tackling new challenges or mastering the latest technologies, I always look forward to expanding my skill set and take on new projects that test my abilities.",
     "mainImage": "/shiny-octo-pancake-personal-website/assets/Images/about-me/headshot.jpeg",
     "backgroundImage": "/shiny-octo-pancake-personal-website/assets/Images/about-me/elpaso-downtown.jpg"
   },
   "background": {
-    "description": "valuses Personal Background Greetings! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate",
+    "description": "I have recently graduated from the University of Texas at El Paso with a bachelor’s in computer science (UTEP). During my years at UTEP I have had the opportunity to work on various projects either by myself or in a group that, that challenged me to apply my technical knowledge and collaborate effectively.  As well as work at the University Writing center to create a web app to automate their queuing system within their department. Currently receiving feedback on the application to better improve the experience and fluidity, as well as working on other projects on my spare time.",
     "mainImage": "/shiny-octo-pancake-personal-website/assets/Images/about-me/front_of_utep.webp",
     "backgroundImage": "/shiny-octo-pancake-personal-website/assets/Images/about-me/utep-wideshot.png"
   },
   "values": {
-    "description": "Background  ! I'm thrilled to welcome you to my corner of the internet. Before we delve into the technical details, let me share a bit about who I am and what drives me in my journey as a software engineer. Accessibility and inclusivity are not just buzzwords for me; they're principles I actively incorporate",
+    "description": " When I'm not coding, I still love challenging myself and enjoy trying new things. In my free time, I like to sew and create new clothes, go for runs, discover new music, and tackle difficult video games cause nothing too easy is too fun. These hobbies keep me energized and inspired, bringing a fresh perspective to my work. That’s a little bit about me! Feel free to browse around my small slice of the internet to see some of the things I've accomplished. I’m excited to continue expanding my portfolio and sharing more of my journey with you all!",
     "mainImage": "/shiny-octo-pancake-personal-website/assets/Images/about-me/el-paso-skyline.jpg",
     "backgroundImage": "/shiny-octo-pancake-personal-website/assets/Images/about-me/el-paso-skyline.jpg"
   }

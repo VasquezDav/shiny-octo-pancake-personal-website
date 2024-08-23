@@ -27,7 +27,6 @@ function Project(props) {
         {props.isSelected && <div className="logo max"></div>}
       </div>
 
-
       {props.hoveredProject === data.projectName && !props.isSelected ? (
         <div className="project-info">
           <div className="title-box">
@@ -41,6 +40,7 @@ function Project(props) {
       {props.isSelected && (
         <>
           <div className="selected-container">
+            <button className="next-button" onClick={handleNext}></button>
             <div className="information descriptions">
               <div className="left-section">
                 <div className="description">
@@ -68,9 +68,8 @@ function Project(props) {
             <div className="information images">
               <ImageGallery images={data.images} />
             </div>
-
             <button className="close-project" onClick={handleClose}></button>
-            <button className="next-button" onClick={handleNext}></button>
+
             <button className="prev-button" onClick={handlePrevious}></button>
           </div>
         </>

@@ -78,14 +78,10 @@
     "fithub": {
       "projectName": "fithub",
       "title": "Personal Fitness Web-App",
-      "description": "The UWC queue app is a web application designed for the front of the University Writing Center to keep track of all the writing centers consultants in the order they are assigned to help the students at The University of Texas at El Paso. This system is designed to ingest a schedule in the form of a .xlsx file and process it so that it is visually represented for the user to input consultants into queue to be assigned to a student. The programs allow for the modification of the queue by reordering the queue as needed. I do plan on expanding on this project such as adding a section for consultants to see their position in the queue, editing information of the consultants on the website, and creating a visual schedule with notifications to when consultants clock in and out ",
-      "background": "",
-      "purpose": "",
+      "description": "Fithub is a fitness tracking app that records your work outs to view your progress over time as well as gives you various workout options and movements based on the which muscle group you want to focus on. Along with our fitness tracking we have a premium option for videos on how to do these work outs as well as shop to buy every athletes favorite brand merchandise. ",
+      "background": "This program was build built on HTML and Java script. That pretty much it, nothing fancy.  Although we did follow an Agile software development process where we periodically checked in with our 'customer' to ensure the program met their wants and needs.",
+      "purpose": "I put “customers” in quotation marks in the background section because it was in fact not a customer, but rather out professor as a part our Agile course while in Uni. This was a project was a way to get us familiar with the agile life cycle. Although this course was about agile and I had the most wonderous, amazing, smooth, uncomplicated experience of a college group project, this was the first time being introduced to actually web development. It’s not the prettiest of projects that I have worked on but it nice to see that I grew as a software developer.",
       "images": [
-        {
-          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page1.png",
-          "img-description": "What fuels my passion for software engineering? It's the prospect of making a tangible difference in people's lives. Whether it's simplifying everyday tasks."
-        },
         {
           "heading": "/shiny-octo-pancake-personal-website/assets/Images/fithub/page2.png",
           "img-description": "This is the second section of the website."

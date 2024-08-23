@@ -155,8 +155,9 @@ h2 {
 }
 
 .panel-image-container-landscape {
-  height: 95%;
+  /* height: 95%; */
   width: 40%;
+  max-height: 100%;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -166,9 +167,7 @@ h2 {
 }
 
 .panel-image-container-portrait {
-  width: 20%;
   height: 90%;
-  min-width: 230px;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -203,27 +202,26 @@ h2 {
   color: 334139;
   z-index: 3;
   text-align: left;
-  margin-top: 60px;
-  margin-left: 50px;
-  overflow-y: scroll;
+  margin: 7%;
 }
 
 .text p {
   margin: 0;
-  font-size: 1em;
+  font-size: 1vw;
   font-family: "SomeTypeMonoRegular";
   overflow-y: scroll;
+  height: 90%;
 }
 h1 {
   margin: 0;
   font-family: "SomeTypeMonoRegular";
-  font-size: 254%;
+  font-size: 2vw;
 }
 
 /*Projects*/
 .projects {
   width: 95%;
-  height: 90vh;
+  height: 100%;
   min-width: 54vh;
   min-height: auto;
   margin: auto;
@@ -239,7 +237,7 @@ h1 {
 
 .project-container {
   display: flex;
-  height: 90%;
+  height: 90vh;
   width: 100%;
   position: relative;
   transition: all 0.3 ease;
@@ -286,8 +284,6 @@ h1 {
   text-align: center;
   line-height: 1.8vw;
   font-size: 1vw;
-  padding-left: 50px;
-  padding-right: 50px;
   animation: fadeIn 1.4s ease-in-out;
 }
 
@@ -360,7 +356,8 @@ h1 {
 }
 .arcana {
   background: linear-gradient(rgba(53, 94, 147, 0.8), rgba(53, 94, 147, 0.7)),
-    url("/public/assets/Images/arcana/arcana-main-page.png") no-repeat center center;
+    url("/public/assets/Images/arcana/arcana-main-page.png") no-repeat center
+      center;
   background-size: cover;
 }
 
@@ -660,7 +657,6 @@ iframe {
   align-items: center;
   margin-bottom: 10px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-
 }
 .image-container {
   height: 74%;
