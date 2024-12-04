@@ -19,7 +19,7 @@
 }
 
 body {
-  background-image: url("/public/assets/Images/about-me/background.jpg");
+  /* background-image: url("/public/assets/Images/about-me/background.jpg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,7 +155,6 @@ h2 {
 }
 
 .panel-image-container-landscape {
-  /* height: 95%; */
   width: 40%;
   max-height: 100%;
   overflow: hidden;
@@ -163,7 +162,7 @@ h2 {
   z-index: 2;
   align-items: center;
   display: flex;
-  margin: auto;
+  margin: 10px;
 }
 
 .panel-image-container-portrait {
@@ -380,6 +379,13 @@ h1 {
 }
 .fithub .logo {
   background-image: url("/public/assets/Images//FitHub.png");
+}
+.fastTrack {
+  background: linear-gradient(rgb(123, 196, 67), rgb(134, 255, 42, 0.8));
+  background-size: cover;
+}
+.fastTrack .logo {
+  background-image: url("/public/assets/Images/fastTrack/Cook-Systems-IT-Staffing-Solutions-Logo.svg");
 }
 
 /*Project*/
@@ -670,6 +676,17 @@ iframe {
   object-fit: contain;
   cursor: pointer;
 }
+.github-icon {
+  width: 5%;
+  height: 5%;
+  transition: transform 0.3s ease;
+}
+
+.github-icon:hover {
+  outline: #000;
+  border-color: black;
+  transform: scale(1.2);
+}
 .fullscreen-overlay {
   position: fixed;
   top: 0;
@@ -693,7 +710,7 @@ iframe {
   transform: scale(2);
   cursor: zoom-out;
 }
-.image-description .description {
+.image-description-text {
   margin-top: 10px;
   font-size: 0.7vw;
   text-align: center;

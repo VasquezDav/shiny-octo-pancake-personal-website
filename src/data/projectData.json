@@ -107,6 +107,23 @@
           "img-description": "And here is the developers of this groundbreaking fitness tracking software(My junior year Agile Devlopment team we that we took a picture outside the classroom)"
         }
       ]
+    },
+    "fastTrack": {
+      "projectName": "fastTrack",
+      "title": "Personal Fitness Web-App",
+      "description": "The 8-Week Full-Stack Development Program is an intensive coding bootcamp that provides hands-on experience in building full-stack applications. The program covers a wide range of technologies, including Java, Spring Framework, SQL, JavaScript, and Angular, and emphasizes practical skills such as creating RESTful APIs, managing databases, and developing dynamic, responsive frontends. Participants complete individual and group projects to simulate real-world software development, preparing them for careers in software engineering.",
+
+      "background": "Our  programs were built using Java, Spring, SQL, JavaScript, and Angular. While the tech stack was modern and comprehensive, the true focus was on learning through experience. We followed a structured learning path that gradually introduced more complex topics, and each week included technical evaluations and coding assignments. Group projects were a significant part of the program, where we collaborated in teams to design and build full-stack applications, practicing agile development processes and integrating frontend and backend components seamlessly.",
+
+      "purpose": "The program was designed to give participants a deep, hands-on understanding of full-stack web development and prepare them for real-world software engineering roles. While technical skills were the primary focus, the experience also highlighted the importance of teamwork, communication, and iterative development in an agile environment. This was a transformative experience for me, as it not only enhanced my coding abilities but also gave me confidence in collaborating on larger projects and adapting quickly to new technologies and frameworks.",
+      "images": [
+        {
+          "heading": "/shiny-octo-pancake-personal-website/assets/Images/fastTrack/fastTrackGroupProject1.png",
+          "githublink": "https://github.com/fasttrackd-student-work/spring-assessment-social-media-nov-2024-team-2",
+          "githublogo": "/shiny-octo-pancake-personal-website/assets/Images/githublogo.png",
+          "img-description": "Developed a RESTful AP as a part of a  team using Spring Boot, JPA, and PostgreSQL to manage social media data resembling Twitter, implementing CRUD operations and business logic."
+        }
+      ]
     }
   }
 }

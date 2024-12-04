@@ -23,8 +23,8 @@ const ImageGallery = ({ images }) => {
       if (selectedThumbnail) {
         selectedThumbnail.scrollIntoView({
           behavior: "smooth",
-          block: "nearest", // Ensure it doesn't scroll vertically
-          inline: "center", // Center the thumbnail horizontally
+          block: "nearest",
+          inline: "center",
         });
       }
     }
@@ -62,18 +62,35 @@ const ImageGallery = ({ images }) => {
       )}
       <div className="imageWrapper">
         <div className="image-container">
-          <img
-            src={images[currentIndex].heading}
-            alt={`Slide ${currentIndex}`}
-            className="image"
-            onClick={toggleFullScreen}
-          />
+          {images[currentIndex].heading && (
+            <img
+              src={images[currentIndex].heading}
+              alt={`Slide ${currentIndex}`}
+              className="image"
+              onClick={toggleFullScreen}
+            />
+          )}
         </div>
 
         <div className="image-description">
-          <p className="description">
+          <p className="image-description-text">
             {images[currentIndex]["img-description"]}
           </p>
+          {images[currentIndex].githublink && (
+            <div className="github-link">
+              <a
+                href={images[currentIndex].githublink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={images[currentIndex].githublogo}
+                  alt="GitHub"
+                  className="github-icon"
+                />
+              </a>
+            </div>
+          )}
         </div>
       </div>
 
